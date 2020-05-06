@@ -13,6 +13,8 @@ namespace Persistence
         }
         public DbSet<Value> Values { get; set; }
 
+        public DbSet<Activity> Activities { get; set; }
+
 
         // Add initial data for entities
         protected override void OnModelCreating(ModelBuilder builder)

@@ -11,7 +11,7 @@ using Persistence;
 namespace API.Controllers
 {
     [ApiController]
-    [Route("api/values")]
+    [Route("api/[controller]")]
     public class ValuesController : ControllerBase
     {
         private readonly ILogger<ValuesController> _logger;
